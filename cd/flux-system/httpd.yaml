@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s
+  namespcae: k8s
+  labels:
+    app: test
+spec:
+  containers:
+  - name: httpd
+    image: httpd
